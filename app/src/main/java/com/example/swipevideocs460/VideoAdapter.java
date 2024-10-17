@@ -72,7 +72,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
      * ViewHolder class for video items. Manages video playback and item views.
      */
     static class VideoViewHolder extends RecyclerView.ViewHolder{
-        TextView textVideoTitle1, textVideoDescription1;
+        TextView textVideoTitle1, textVideoDescription1, textVideoID;
         VideoView videoView;
         ProgressBar progressBar;
 
@@ -86,6 +86,8 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
             videoView = itemView.findViewById(R.id.videoView);
             textVideoTitle1 = itemView.findViewById(R.id.textVideoTitle);
             textVideoDescription1 = itemView.findViewById(R.id.textVideoDescription);
+            textVideoID = itemView.findViewById(R.id.textVideoID);
+
             progressBar = itemView.findViewById(R.id.videoProgressBar);
         }
 
@@ -98,6 +100,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
             textVideoTitle1.setText(videoItem.videoTitle);
             textVideoDescription1.setText(videoItem.videoDescription);
             videoView.setVideoPath(videoItem.videoURL);
+            textVideoID.setText(videoItem.videoID);
 
             // Handle video preparation and playback.
             videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
