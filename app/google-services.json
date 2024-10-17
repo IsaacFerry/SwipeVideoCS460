@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004566911521",
+    "project_id": "swipevideo-cs460",
+    "storage_bucket": "swipevideo-cs460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004566911521:android:f7061bc6758a5749992160",
+        "android_client_info": {
+          "package_name": "com.example.swipevideocs460"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYwV4MZN89MKO0uZF7bIzXzOfRPi5DHwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
