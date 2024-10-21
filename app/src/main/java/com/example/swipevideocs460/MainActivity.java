@@ -64,19 +64,19 @@ public class MainActivity extends AppCompatActivity {
         videoCelebration1.videoID = generateUniqueVideoID();
         videoItemsList.add(videoCelebration1);
 
-        VideoItem videoCelebration2 = new VideoItem();
-        videoCelebration2.videoURL = "https://firebasestorage.googleapis.com/v0/b/swipevideo-cs460.appspot.com/o/CS%202%20but%20it's%20tiktok%20%F0%9F%95%BA_%20%23cs2%20%23csgo%20%23csgovine%20%23cs2clips%20%23counterstrike%20%23tiktok%20%23shorts.mp4?alt=media&token=a0a02f21-b335-49cc-b041-d153f053b0ca";
-        videoCelebration2.videoTitle = "New CS2 update";
-        videoCelebration2.videoDescription = "They finally updated their anti cheat";
-        videoCelebration2.videoID = generateUniqueVideoID();
-        videoItemsList.add(videoCelebration2);
-
-        VideoItem videoCelebration3 = new VideoItem();
-        videoCelebration3.videoURL = "https://firebasestorage.googleapis.com/v0/b/swipevideo-cs460.appspot.com/o/197898-905833761_small.mp4?alt=media&token=a000edab-d2ac-42a5-b15a-545225432bb3";
-        videoCelebration3.videoTitle = "Off road";
-        videoCelebration3.videoDescription = "Off road champ";
-        videoCelebration3.videoID = generateUniqueVideoID();
-        videoItemsList.add(videoCelebration3);
+//        VideoItem videoCelebration2 = new VideoItem();
+//        videoCelebration2.videoURL = "https://firebasestorage.googleapis.com/v0/b/swipevideo-cs460.appspot.com/o/CS%202%20but%20it's%20tiktok%20%F0%9F%95%BA_%20%23cs2%20%23csgo%20%23csgovine%20%23cs2clips%20%23counterstrike%20%23tiktok%20%23shorts.mp4?alt=media&token=a0a02f21-b335-49cc-b041-d153f053b0ca";
+//        videoCelebration2.videoTitle = "New CS2 update";
+//        videoCelebration2.videoDescription = "They finally updated their anti cheat";
+//        videoCelebration2.videoID = generateUniqueVideoID();
+//        videoItemsList.add(videoCelebration2);
+//
+//        VideoItem videoCelebration3 = new VideoItem();
+//        videoCelebration3.videoURL = "https://firebasestorage.googleapis.com/v0/b/swipevideo-cs460.appspot.com/o/197898-905833761_small.mp4?alt=media&token=a000edab-d2ac-42a5-b15a-545225432bb3";
+//        videoCelebration3.videoTitle = "Off road";
+//        videoCelebration3.videoDescription = "Off road champ";
+//        videoCelebration3.videoID = generateUniqueVideoID();
+//        videoItemsList.add(videoCelebration3);
 
 
 
